@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/Figura.js"></script>
+    <script>
+        let rectangulo = new Rectangulo(10, 5)
+        console.log("Area del rectangulo: " + rectangulo.calcularArea())
+
+        let cuadrado = new Cuadrado(10)
+        console.log("Area del cuadrado: " + cuadrado.calcularArea())
+
+        let romboide = new Romboide(10, 5)
+        console.log("Area del romboide: " + romboide.calcularArea())
+
+        let triangulo = new Triangulo(6, 10)
+        console.log("Area del Triangulo: " + triangulo.calcularArea())
+
+        let trapecio = new Trapecio(8, 6, 10)
+        console.log("Area del trapecio: " + trapecio.calcularArea())
+
+        let trapecio2 = new Trapecio2(8, 6, 10)
+        console.log("Area del trapecio: " + trapecio2.calcularArea())
+
+        let circulo = new Circulo(4)
+        console.log("Area del circulo: " + circulo.calcularArea())
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
